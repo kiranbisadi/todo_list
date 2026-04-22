@@ -10,3 +10,7 @@ A simple To-Do List application built using HTML, CSS, and JavaScript.
 - HTML
 - CSS
 - JavaScript
+
+## Features
+- Persistent storage using localStorage
+- Tasks remain after page refresh
