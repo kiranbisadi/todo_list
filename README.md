@@ -1,41 +1,31 @@
-# 📝 To-Do List App
+# To-Do List App
 
 A simple and interactive To-Do List application built using HTML, CSS, and JavaScript. This project helps users manage daily tasks efficiently with persistent storage.
 
----
+## Features
 
-## 🚀 Features
+* Add tasks dynamically
+* Delete last added task
+* Clear all tasks
+* Persistent storage using localStorage
+* Tasks remain even after page refresh
+* Add tasks using Enter key
+* Clean and responsive UI
 
-* ➕ Add tasks dynamically
-* ❌ Delete last added task
-* 🧹 Clear all tasks
-* 💾 Persistent storage using localStorage
-* 🔁 Tasks remain even after page refresh
-* ⌨️ Add tasks using Enter key
-* 🎨 Clean and responsive UI
-
----
-
-## 🛠️ Technologies Used
+## Technologies Used
 
 * HTML
 * CSS
 * JavaScript (DOM manipulation + localStorage)
 
----
+## Project Structure
 
-## 📂 Project Structure
-
-```
-📁 To-Do-App
+To-Do-App
  ├── index.html
  ├── styles.css
  └── script.js
-```
 
----
-
-## ▶️ How to Use
+## How to Use
 
 1. Open the application in your browser
 2. Enter a task in the input field
@@ -44,10 +34,8 @@ A simple and interactive To-Do List application built using HTML, CSS, and JavaS
 
    * **Del** → removes last task
    * **Clear All** → removes all tasks
-
----
-
-## 💡 Future Improvements
+   * 
+## Future Improvements
 
 * Edit tasks
 * Delete specific task
@@ -55,9 +43,7 @@ A simple and interactive To-Do List application built using HTML, CSS, and JavaS
 * Add animations
 * Improve UI/UX further
 
----
-
-## 📌 Project Purpose
+## Project Purpose
 
 This project was built to practice:
 
@@ -65,14 +51,6 @@ This project was built to practice:
 * Event handling
 * Local storage usage
 * Basic UI design principles
-
----
-
-## 📷 Preview
-
-*(Add screenshot here later for better presentation)*
-
----
 
 ## 🔗 Author
 
