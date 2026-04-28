@@ -1,38 +1,74 @@
+/* Reset */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
-/* apply background only to body */
+/* Centering the app */
 body {
-    background: salmon;
+    background: linear-gradient(135deg, #89f7fe, #66a6ff);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
+/* Container */
 .todo-container {
-    padding-left: 40px;
-    margin: 50px;
-    border: 2px solid aqua;
+    padding: 20px;
+    border-radius: 12px;
     width: 350px;
-    height: 350px;
-    border-radius: 5px;
+    background: white;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+/* Title */
+h3 {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+/* Input */
+#input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    outline: none;
+}
+
+/* Buttons */
+button {
+    width: 80px;
+    padding: 6px;
+    margin: 5px 3px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    background: #e0f7fa;
+    transition: 0.3s;
+}
+
+/* Hover effect */
+button:hover {
+    background: #00bcd4;
     color: white;
 }
 
-h3 {
-    padding-left: 40px;
-    margin-top: 20px;
+#todolist {
+    margin-top: 10px;
+    list-style: none;
+
+    max-height: 200px;   /* limit height */
+    overflow-y: auto;    /* enable vertical scroll */
 }
 
-#input {
-    padding-left: 10px;
+/* Each item */
+#todolist li {
+    background: #f1f1f1;
+    padding: 8px;
+    margin-bottom: 6px;
     border-radius: 5px;
-    border: 1px solid black;
-}
-
-button {
-    width: 50px; /* slightly better */
-    background: lightcyan;
-    border-radius: 3px;
-    cursor: pointer;
 }
