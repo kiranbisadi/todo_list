@@ -34,7 +34,7 @@ To-Do-App
 
    * **Del** → removes last task
    * **Clear All** → removes all tasks
-   * 
+ 
 ## Future Improvements
 
 * Edit tasks
